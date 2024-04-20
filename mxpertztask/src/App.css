@@ -1,0 +1,50 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  flex:4;
+}
+
+.logo {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button, .signout-button {
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.signout-button{
+  background-image: linear-gradient(to right, #4f0ef7, #0bbfff);
+  padding:8px 14px 8px 14px;
+  border-radius: 18px;
+}
+
+.nav-button:hover, .signout-button:hover {
+}
+
+
+
+
+
+
+/* for storycard */
+
+
